@@ -1,0 +1,28 @@
+div {
+
+border: 1px solid gray;
+margin: 3px;
+padding: 3px;
+
+}
+
+
+.container {
+
+   display: flex;
+   flex-direction: row;
+
+}
+
+.container div {
+
+    
+    text-align: center;
+    flex: 1;
+}
+
+.container div:nth-child(1) {
+  
+    flex:  2;
+
+}
